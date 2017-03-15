@@ -1,12 +1,14 @@
 body {
   font-family: 'Lora', serif;
   margin: 0;
+  background-color: #365023;
+  color: #eeeeee;
 }
 
 /*Header*/
 
 .topbar {
-  height: 800px;
+  height: 700px;
 }
 
 .topbar h1 {
@@ -15,12 +17,23 @@ body {
   height: 300px;
   padding: 120px;
   font-size: 60px;
-  /*background-color: #eeeeee;*/
 }
 
 .topbar img {
   width: 100%;
-  height: 400px;
+  height: 450px;
+}
+
+/*Intro*/
+
+.intro {
+  text-align: center;
+  height: 300px;
+}
+
+.intro h2 {
+  font-size: 30px;
+  padding: 30px;
 }
 
 /*images*/
@@ -33,7 +46,6 @@ div.pet {
   float: left;
   width: 30%;
   margin: 15px;
-
 }
 
 .pet h2 {
